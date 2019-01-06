@@ -19,8 +19,9 @@
     li:hover {
         background-color: rgba(227,229,233, .85);
     }
-    span {
+    a {
         margin: auto 15px auto 15px;
+        text-decoration: none;
     }
 }
 
@@ -46,4 +47,11 @@
     }
 }
 }
+}
+
+.nav {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 5000;
 }

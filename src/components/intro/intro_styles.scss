@@ -1,0 +1,41 @@
+.introdiv {
+    background-image: url('../../img/nasa.jpg');
+    display: flex;
+    height: 720px;
+    color: white;
+    position: relative;
+
+    .introcont {
+        margin: auto;
+
+        .info {
+            order: 0;
+            width: 100%;
+            margin: auto;
+            display: flex;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 225px;
+            width: 225px;
+            margin-left: auto;
+        }
+        
+        .introduction {
+            text-align: center;
+            margin: auto auto auto 0;
+        }
+
+        .stack {
+            text-align: center;
+            position: absolute;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            bottom: 25px;
+        }
+    }
+
+}

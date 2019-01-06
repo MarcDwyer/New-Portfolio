@@ -1,0 +1,49 @@
+
+    
+.projectcont {
+        display: flex;
+
+        img {
+            order: 1;
+            height: 350px;
+            width: 45%;
+            margin: 25px 0 25px auto;
+            border-radius: 10px;
+        }
+    }
+    .project-details {
+        order: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 45%; 
+
+        button {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            padding: 15px 15px;
+            cursor: pointer;
+            background-color: #e7e7e7;
+        }   
+}
+
+.dark {
+    background-image: url('../../img/nasa.jpg');
+    color: white;
+
+    img {
+        order: 0;
+        margin: 25px auto 25px 0;
+    }
+
+    .project-details {
+        order: 1;
+
+        button {
+            background-color: #555555;
+            color: #eee;
+        }
+    }
+}
