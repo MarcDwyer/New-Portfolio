@@ -1,0 +1,49 @@
+.naver {
+    display: flex;
+    height: 45px;
+    border-bottom: #eee;
+    flex-wrap: nowrap;
+
+.navigator {
+    order: 0;
+    display: flex;
+    height: 100%;
+    width: 50%;
+
+    li {
+        display: flex;
+        cursor: pointer;
+        list-style-type: none;
+        height: 100%;
+    }
+    li:hover {
+        background-color: rgba(227,229,233, .85);
+    }
+    span {
+        margin: auto 15px auto 15px;
+    }
+}
+
+.icons {
+    order: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+.iconset {
+    margin-left: auto;
+    display: flex;
+
+    a {
+        margin: auto 15px auto 15px;
+    }
+    i {
+        color: rgba(0, 0, 0, .55);
+        font-size: 26px;
+    }
+    i:hover {
+        color: rgba(0, 0, 0, 1);
+    }
+}
+}
+}
