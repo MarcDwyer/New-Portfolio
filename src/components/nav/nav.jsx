@@ -4,13 +4,12 @@ import { withRouter } from "react-router";
 import { Link } from 'react-router-dom'
 
 const Nav = (props) => {
-    console.log(props)
     return (
         <div className="parent nav">
         <div className="naver container">
             <div className="navigator">
-                <li><Link to="/" className="fontme">Home</Link></li>
-                <li><Link to="/about" className="fontme">About</Link></li>
+                <Link to="/" className="fontme"><span>Home</span></Link>
+                <Link to="/about" className="fontme"><span>About</span></Link>
             </div>
             <div className="icons">
                 <div className="iconset">

@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import Intro from './components/intro/intro';
+import Home from './components/home/home';
 import Nav from './components/nav/nav';
+import About from './components/about/about'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -11,7 +12,8 @@ ReactDOM.render(
     <div>
     <Nav />
     <Switch>
-    <Route path="/" component={Intro} /> 
+    <Route exact path="/about" component={About} /> 
+    <Route path="/" component={Home} /> 
     </Switch>
     </div>
     </BrowserRouter>
