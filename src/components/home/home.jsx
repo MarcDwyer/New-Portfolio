@@ -34,12 +34,19 @@ const projects = [
 {
     title: "Live Chat",
     details: "SocketIO is an incredibly powerful tool. Allowing multiple users to connect with eachother. I created this app because I feel like its important for a Developer to be able to create software that allow users to communicate.",
-    url: "https://s3.us-east-2.amazonaws.com/fetchappbucket/port/livechat.PNG",
+    url: "https://s3.us-east-2.amazonaws.com/fetchappbucket/port/livechat.jpg",
     links: [{title: "Live Demo", link: "https://livechattesting.herokuapp.com/"}, {title: "Full-Stack", link: "https://github.com/MarcDwyer/Live-Chat"}],
     stack: "HTML, CSS, JavaScript, NodeJS and SocketIO"
+},
+{
+    title: "Portfolio Page",
+    details: "Usually to make simple sites such as this I wouldnt use a framework, but I just thought it would be fun.",
+    url: "https://s3.us-east-2.amazonaws.com/fetchappbucket/port/port.jpg",
+    links: [{title: "Front-End", link: "https://github.com/MarcDwyer/NewPort"}],
+    stack: "React"
 }
 ]
-
+// https://s3.us-east-2.amazonaws.com/fetchappbucket/port/port.jpg
 const Home = () => {
     return (
         <div>

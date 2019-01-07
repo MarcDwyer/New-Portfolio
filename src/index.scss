@@ -2,7 +2,7 @@
   --bluefont:rgba(0, 0, 0, .55);
 }
 
-body {
+body, html {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -35,5 +35,17 @@ code {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+ 
+@media (max-width: 800px) {
+  .container {
+    display: flex;
+    width: 95% !important;
+
+    .content {
+      display: flex;
+      width: 100%;
+    }
   }
 }
