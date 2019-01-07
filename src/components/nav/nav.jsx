@@ -8,8 +8,12 @@ const Nav = (props) => {
         <div className="parent nav">
         <div className="naver container">
             <div className="navigator">
-                <Link to="/" className="fontme"><span>Home</span></Link>
-                <Link to="/about" className="fontme"><span>About</span></Link>
+                <Link 
+                style={props.location.pathname === "/" ? {borderTop: "1px solid black"} : {}}
+                 to="/" className="fontme"><span>Home</span></Link>
+                <Link 
+                style={props.location.pathname === "/about" ? {borderTop: "1px solid black"} : {}}
+                to="/about" className="fontme"><span>About</span></Link>
             </div>
             <div className="icons">
                 <div className="iconset">
