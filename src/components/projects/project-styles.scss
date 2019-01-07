@@ -4,13 +4,19 @@
         display: flex;
         flex-wrap: wrap;
 
-        img {
+        .project-image {
             order: 1;
-            height: 375px;
-            image-rendering: crisp-edges;
-            width: 45%;
+            height: 400px;
+            width: 50%;
             margin: 25px 0 25px auto;
-            border-radius: 10px;
+            display: flex;
+
+            img {
+                margin: auto;
+                border-radius: 5px;
+                width: 650px;
+                height: 325px;
+            }
         }
         .project-details {
             order: 0;
@@ -31,7 +37,8 @@
             }  
     } 
     @media (max-width: 1550px) {
-        img {
+        
+        .project-image {
             order: 0;
             width: 75%;
             margin: 25px auto 25px auto !important;
@@ -42,8 +49,12 @@
         }
     }
     @media (max-width: 800px) {
-        img {
+        .project-image {
             width: 100%;
+            img { 
+                width: 100% !important;
+                height: 100% !important;
+            }
         }
     }
 }
@@ -52,7 +63,8 @@
     background-image: url('https://s3.us-east-2.amazonaws.com/fetchappbucket/port/nasapic.jpg');
     color: white;
 
-    img {
+    
+    .project-image {
         order: 0;
         margin: 25px auto 25px 0;
     }
@@ -66,7 +78,8 @@
         }
     }
     @media (max-width: 1550px) {
-        img {
+        
+        .project-image {
             order: 0;
             margin: 25px auto 25px auto !important;
         }
@@ -76,7 +89,8 @@
         }
     }
     @media (max-width: 800px) {
-        img {
+        
+        .project-image {
             width: 100%;
         }
     }

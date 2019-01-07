@@ -30,7 +30,9 @@ const Project = (props) => {
                     <span style={{fontWeight: "bold", marginTop: "25px"}}>Stack: <span>{stack}</span></span>
                     <p>{details}</p>
                     </div>
+                    <div className="project-image">
                     <img src={url} alt="project"/>
+                    </div>
                 </div>
             </div>
         )

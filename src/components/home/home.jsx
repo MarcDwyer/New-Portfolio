@@ -5,7 +5,7 @@ import Intro from '../intro/intro'
 const projects = [
     {
     title: 'Real-Time Poll App V1',
-    details: "Strawpoll.me inspired me to create this application, it's something I use frequently and didnt realize how good it was until I started building CRUD applications. The app is simple, you create a poll, you vote on it, than you share the URL to your poll to your friends/family, and once you're at the results page, websockets keep you updated on the count of each item in the poll so no refreshing needed. Its an app that takes you on a little journey to creating your own poll.",
+    details: "Strawpoll.me inspired me to create this application, it's something I use frequently and didnt realize how good it was until I started building CRUD applications. The app is simple, you create a poll, you vote on it, than you share the URL to your poll to your friends/family, and once you're at the results page, websockets keep you updated on the count of each item in the poll so no refreshing needed. Also, this app uses Google's recaptcha as well as my own Ip duplication detection to prevent vote manipulation.",
     url: 'https://s3.us-east-2.amazonaws.com/fetchappbucket/port/poller.jpg',
     links: [{title: "Live Demo", link: "https://guarded-tundra-22341.herokuapp.com/"}, {title: "Front-End", link: "https://github.com/MarcDwyer/Poll-Frontend"}, {title: "Back-End", link: "https://github.com/MarcDwyer/Poll-Backend"}],
     stack: "React, Go and MongoDB"
@@ -40,7 +40,7 @@ const projects = [
 },
 {
     title: "Portfolio Page",
-    details: "Usually to make simple sites such as this I wouldnt use a framework, but I just thought it would be fun.",
+    details: "Not much to say about this project, but feel free to visit the repo!",
     url: "https://s3.us-east-2.amazonaws.com/fetchappbucket/port/port.jpg",
     links: [{title: "Front-End", link: "https://github.com/MarcDwyer/NewPort"}],
     stack: "React"
