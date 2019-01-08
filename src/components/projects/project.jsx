@@ -1,6 +1,6 @@
 import React from 'react'
 import uuid from 'uuid'
-import '../projects/project-styles.scss'
+import '../projects/project_styles.scss'
 
 const Project = (props) => {
     if (!props.project) return null

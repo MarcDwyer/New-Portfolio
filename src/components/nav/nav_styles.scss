@@ -46,6 +46,11 @@
     i:hover {
         color: rgba(0, 0, 0, 1);
     }
+    @media(max-width: 800px) {
+        a {
+            margin: auto 25px auto 25px;
+        }
+    }
 }
 }
 }

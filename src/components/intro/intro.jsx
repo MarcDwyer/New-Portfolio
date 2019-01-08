@@ -51,7 +51,7 @@ const Intro = (props) => {
             <div className="stack">
             <h1>Skills</h1>
             <div className="stackskills">
-                <span>HTML, CSS, JavaScript, React, Redux, NodeJS, Go and Git</span>
+                <span style={{fontWeight: "bold"}}>HTML, CSS, JavaScript, React, Redux, NodeJS, Go and Git</span>
             </div>
         </div>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Project from '../projects/project'
 import Intro from '../intro/intro'
+import Footer from '../footer/footer'
 
 const projects = [
     {
@@ -52,6 +53,7 @@ const Home = () => {
         <div>
         <Intro />
         <Project project={projects} />
+        <Footer />
      </div>
     )
 }

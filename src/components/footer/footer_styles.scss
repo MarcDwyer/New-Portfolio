@@ -1,0 +1,25 @@
+.footer-parent {
+    background-color: #1E1E1E;
+    color: #D8D8D8;
+    
+    .footer-cont {
+        display: flex;
+        height: 100%;
+    }
+    .footer-btns {
+        margin: auto;
+        text-align: center;
+        display: flex;  
+        span {
+            font-size: 14px;    
+            font-weight: bolder;
+            margin-right: 15px;
+            a {
+                color: inherit;
+                font-size: 14px;    
+                font-weight: normal;    
+                text-decoration: none;
+            }
+        }
+    }
+}
