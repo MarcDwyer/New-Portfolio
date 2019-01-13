@@ -44,7 +44,7 @@ const projects = [
     details: "Not much to say about this project, but feel free to visit the repo!",
     url: "https://s3.us-east-2.amazonaws.com/fetchappbucket/port/port.jpg",
     links: [{title: "Front-End", link: "https://github.com/MarcDwyer/NewPort"}],
-    stack: "React"
+    stack: "React and Sass"
 }
 ]
 // https://s3.us-east-2.amazonaws.com/fetchappbucket/port/port.jpg

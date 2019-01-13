@@ -3,6 +3,12 @@
     height: 45px;
     border-bottom: #eee;
     flex-wrap: nowrap;
+    position: relative;
+
+    .fa-bars {
+        display: none;
+        position: absolute;
+    }
 
 .navigator {
     order: 0;
@@ -52,6 +58,22 @@
         }
     }
 }
+}
+@media (max-width: 800px) {
+    .naver {
+        width: 100%;
+    }
+    .icons {
+        display: none
+    }
+    .navigator {
+        margin: auto;
+        width: 90%;
+        a {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
 }
 }
 

@@ -4,6 +4,7 @@ import './index.scss';
 import Home from './components/home/home';
 import Nav from './components/nav/nav';
 import About from './components/about/about'
+import Resume from './components/resume/resume'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
     <div>
     <Nav />
     <Switch>
+    <Route exact path="/resume" component={Resume} /> 
     <Route exact path="/about" component={About} /> 
     <Route path="/" component={Home} /> 
     </Switch>

@@ -16,13 +16,14 @@ const Project = (props) => {
                     {(() => {
                         return links.map(({ title, link }, index) => {
                             const mg = index > 0 ? "25px" : ""
+                            const newname = title.includes("-") ? `${title} Repo` : title
                             return (
                                 <button key={uuid()} style={{marginLeft: mg}} rel="noopener noreferrer"
                                 onClick={() => {
                                     const win = window.open(link, '_blank');
                                     win.focus()
                                 }}
-                                >{title}</button>
+                                >{newname}</button>
                             )
                         })
                     })()}
