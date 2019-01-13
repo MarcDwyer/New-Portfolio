@@ -1,6 +1,7 @@
 .footer-parent {
     background-color: #1E1E1E;
     color: #D8D8D8;
+    height: 85px;
     
     .footer-cont {
         display: flex;
@@ -11,12 +12,12 @@
         text-align: center;
         display: flex;  
         span {
-            font-size: 14px;    
+            font-size: 24px;    
             font-weight: bolder;
             margin-right: 15px;
             a {
                 color: inherit;
-                font-size: 14px;    
+                font-size: 24px;    
                 font-weight: normal;    
                 text-decoration: none;
             }
