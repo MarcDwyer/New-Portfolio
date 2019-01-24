@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
+import ReactGA from 'react-ga';
 import Home from './components/home/home';
 import Nav from './components/nav/nav';
 import About from './components/about/about'
 import Resume from './components/resume/resume'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
+
+
+ReactGA.initialize('UA-132536428-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
     <BrowserRouter>

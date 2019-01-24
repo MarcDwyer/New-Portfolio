@@ -6,7 +6,8 @@ const Footer = () => {
         <div className="parent footer-parent">
             <div className="container footer-cont">
                 <div className="footer-btns">
-                <span>Email: <a href="mailto:marcdwyer1738@gmail.com">marcdwyer1738@gmail.com</a></span>
+                <a target="_blank" href="https://github.com/MarcDwyer" className="fa fa-github" />
+                <a target="_blank" href="https://www.linkedin.com/in/marc-dwyer-53087339/" className="fa fa-linkedin" />
                 </div>
             </div>
         </div>
