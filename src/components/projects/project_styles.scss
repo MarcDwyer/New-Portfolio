@@ -1,61 +1,65 @@
-
-    
 .projectcont {
+    display: flex;
+    flex-wrap: wrap;
+
+    .project-image {
+        order: 1;
+        height: 400px;
+        width: 50%;
+        margin: 25px 0 25px auto;
         display: flex;
-        flex-wrap: wrap;
 
-        .project-image {
-            order: 1;
-            height: 400px;
-            width: 50%;
-            margin: 25px 0 25px auto;
-            display: flex;
-
-            img {
-                margin: auto;
-                border-radius: 5px;
-                width: 650px;
-                height: 325px;
-            }
+        img {
+            margin: auto;
+            border-radius: 5px;
+            width: 650px;
+            height: 325px;
         }
-        .project-details {
-            order: 0;
-            display: flex;
-            flex-direction: column;
-            position: relative;
-            width: 45%;
-            word-wrap: break-word; 
-    
-            button {
-                text-align: center;
-                text-decoration: none;
-                display: inline-block;
-                border: none;
-                padding: 15px 15px;
-                cursor: pointer;
-                background-color: #e7e7e7;
-            }  
-    } 
+    }
+
+    .project-details {
+        order: 0;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 45%;
+        word-wrap: break-word;
+
+        button {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            padding: 15px 15px;
+            cursor: pointer;
+            background-color: #e7e7e7;
+        }
+    }
+
     @media (max-width: 1550px) {
-        
+
         .project-image {
             order: 0;
             width: 75%;
             margin: 25px auto 25px auto !important;
         }
+
         .project-details {
             order: 1;
             width: 100%;
         }
     }
+
     @media (max-width: 800px) {
         .project-image {
             width: 100%;
-            img { 
+
+            img {
                 width: 100% !important;
                 height: 100% !important;
             }
         }
+
         .btn-links {
             button {
                 margin-top: 10px;
@@ -65,10 +69,11 @@
 }
 
 .dark {
-    background-image: url('https://s3.us-east-2.amazonaws.com/fetchappbucket/port/nasapic.jpg');
+    background: #321b25;
+    background: -webkit-linear-gradient(left,#321b25,#0e1a28 97%);
     color: white;
 
-    
+
     .project-image {
         order: 0;
         margin: 25px auto 25px 0;
@@ -82,19 +87,22 @@
             color: #eee;
         }
     }
+
     @media (max-width: 1550px) {
-        
+
         .project-image {
             order: 0;
             margin: 25px auto 25px auto !important;
         }
+
         .project-details {
             order: 1;
             width: 100%;
         }
     }
+
     @media (max-width: 800px) {
-        
+
         .project-image {
             width: 100%;
         }
